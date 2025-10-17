@@ -253,55 +253,368 @@
                 </div>
             </div>
         </nav>
-
+    
         <main class="container mx-auto px-4 py-8">
-
-            <!-- INTRODUCTION SECTION (Konten Ebook Asli Anda) -->
+    
             <section id="intro" class="card">
                 <h2 class="section-title">I. Pendahuluan: Keunggulan Swing Trader di Pasar Dinamis</h2>
                 <p class="mb-4">Swing trading, khususnya dalam rentang waktu 1-7 hari, adalah strategi yang dirancang untuk memanfaatkan pergerakan harga jangka pendek di pasar keuangan. Pendekatan ini berfokus pada identifikasi saham yang berpotensi mengalami kenaikan signifikan, baik karena breakout dari konsolidasi, pembalikan dari tren turun, atau akumulasi berkelanjutan oleh partisipan pasar. Waktu penyelesaian yang cepat dari strategi ini menuntut fokus pada aset yang sangat likuid dan sinyal teknikal yang jelas dan dapat ditindaklanjuti, seringkali diperkuat oleh aliran dana institusional atau "smart money" yang mendasarinya.</p>
                 <p class="mb-4">Di pasar yang luas dan dinamis seperti Bursa Efek Indonesia (BEI), menyaring ribuan saham secara manual untuk menemukan kandidat berpotensi tinggi ini adalah upaya yang tidak praktis. Di sinilah *stock screener* yang canggih menjadi alat yang sangat diperlukan. *Screener* berfungsi sebagai filter yang kuat, secara efisien mempersempit alam semesta pasar yang luas menjadi daftar ekuitas yang dapat dikelola yang secara tepat sesuai dengan kriteria yang telah ditentukan oleh trader. Bagi *swing trader*, *screening* yang efektif bukan hanya kenyamanan; ini merupakan fase awal dan paling kritis dari proses trading mereka, memastikan bahwa perhatian mereka diarahkan pada saham dengan probabilitas statistik tertinggi untuk memberikan keuntungan dalam jangka waktu yang ditentukan.</p>
                 <p>Laporan ini menyajikan kerangka kerja komprehensif untuk mengembangkan *stock screener* tingkat lanjut. Ini mengintegrasikan analisis teknikal tradisional—meliputi metrik harga, volume, dan frekuensi perdagangan—dengan wawasan bernuansa yang berasal dari "bandarmology." Bandarmology, studi tentang aktivitas investor institusional dan besar (termasuk aliran asing, akumulasi/distribusi institusional lokal, dan transaksi *insider*), menawarkan lensa unik ke dalam dinamika pasar. Dengan menggabungkan kumpulan data yang kuat ini, tujuannya adalah untuk melampaui metodologi *screening* konvensional, menyediakan pendekatan holistik dan berbasis data untuk mengidentifikasi *setup* berkeyakinan tinggi untuk apresiasi modal jangka pendek.</p>
             </section>
-
-            <!-- METRICS SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="metrics" class="card">
-                <h2 class="section-title">II. Membongkar Perangkat Anda: Metrik Kunci (Lanjutkan dari konten asli)</h2>
-                <p>Konten Metrik Kunci... (Gunakan konten lengkap dari file asli di sini)</p>
-                <details class="mb-4"><summary class="details-summary">A. Metrik Teknikal untuk Momentum & Volatilitas (Klik untuk melihat)</summary><div class="details-content mt-2"><p>...</p></div></details>
-                <details class="mb-4"><summary class="details-summary">B. Metrik Bandarmology untuk Aliran Institusional & Smart Money (Klik untuk melihat)</summary><div class="details-content mt-2"><p>...</p></div></details>
+                <h2 class="section-title">II. Membongkar Perangkat Anda: Metrik Kunci untuk Peluang Jangka Pendek</h2>
+                <p class="mb-4">Untuk secara efektif mengidentifikasi pergerakan naik potensial dalam cakrawala *swing trading* 1-7 hari, pemahaman dan penerapan yang tepat dari berbagai metrik pasar sangat penting. Metrik ini, secara luas dikategorikan ke dalam aspek teknikal dan "bandarmology," memberikan wawasan kritis tentang momentum saham, likuiditas, dan minat institusional yang mendasarinya.</p>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">A. Metrik Teknikal untuk Momentum & Volatilitas</summary>
+                    <div class="details-content mt-2">
+                        <h3 class="subsubsection-title">Indikator Berbasis Harga</h3>
+                        <p class="mb-2">Elemen dasar analisis harga meliputi <strong>Previous Price, Open Price, Low Price, dan High Price</strong>. Titik data mentah ini memberikan konteks harian pergerakan saham. Misalnya, saham yang ditutup mendekati harga tertinggi hari itu atau dibuka dengan gap up yang signifikan seringkali menandakan momentum langsung yang kuat dan potensi kelanjutan.</p>
+                        <p class="mb-2"><strong>Price Moving Averages (MA 5, 10, 20, 50, 100, 200)</strong> sangat penting dalam mengidentifikasi tren dan level support/resistance.</p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><strong>MA 5, MA 10, dan MA 20</strong> sangat vital untuk identifikasi tren jangka pendek dan penilaian momentum. Saham yang secara konsisten diperdagangkan di atas MA 5 dan MA 10, dengan MA 5 berada di atas MA 10, merupakan indikasi kuat momentum bullish langsung. Breakout di atas MA 20 seringkali menandakan pergeseran dari tren turun jangka pendek atau periode konsolidasi menjadi tren naik yang baru muncul.</li>
+                            <li><strong>MA 50, MA 100, dan MA 200</strong>, meskipun mewakili tren jangka panjang, berfungsi sebagai level support atau resistance psikologis dan teknikal yang signifikan. Saham yang mempertahankan posisinya di atas MA 50 atau MA 200 menunjukkan kekuatan yang mendasarinya, yang dapat memberikan keandalan yang lebih besar pada breakout jangka pendek. Pembalikan dari salah satu rata-rata bergerak jangka panjang ini juga dapat menandakan pembalikan potensial.</li>
+                        </ul>
+                        <p class="mb-2">Setup yang menarik bagi *swing trader* seringkali muncul ketika beberapa *moving average* jangka pendek, seperti MA 5, MA 10, dan MA 20, bertemu erat dan kemudian mulai menyimpang, dengan *moving average* terpendek memimpin ekspansi ke atas. Pola ini seringkali mendahului periode peningkatan volatilitas setelah fase konsolidasi harga. Konvergensi menunjukkan efek "pegas yang tergulung," di mana energi sedang membangun sebelum pergerakan arah yang signifikan. Ketika harga kemudian menembus di atas *moving average* yang bertemu ini, terutama dengan peningkatan volume perdagangan, ini sangat menunjukkan momentum arah yang kuat. *Screening* untuk saham di mana MA 5 melintasi di atas MA 10 dan MA 20, terutama setelah periode kisaran harga yang ketat, dapat memungkinkan identifikasi breakout tahap awal sebelum mereka dikenal luas oleh pasar yang lebih luas.</p>
+    
+                        <h3 class="subsubsection-title">Indikator Volume & Nilai</h3>
+                        <p class="mb-2"><strong>Volume, Previous Volume, dan 1 Day Volume Change</strong>, bersama dengan <strong>Volume Moving Averages (5, 10, 20, 50, 100, 200)</strong>, sangat penting untuk memvalidasi pergerakan harga. Kenaikan harga yang signifikan disertai dengan volume tinggi adalah konfirmasi bullish yang kuat, menunjukkan minat beli yang tulus. Sebaliknya, kenaikan harga dengan volume rendah seringkali menimbulkan kecurigaan, menunjukkan kurangnya keyakinan di balik pergerakan tersebut. Perubahan Volume 1 Hari yang tinggi (misalnya, melebihi 50% atau 100% dari volume harian rata-rata) menunjukkan minat pasar yang tidak biasa dan seringkali mendahului atau menyertai breakout. Volume MA membantu menetapkan dasar untuk aktivitas perdagangan rata-rata, membuat lonjakan mendadak lebih terlihat.</p>
+                        <p class="mb-2"><strong>Value</strong> (nilai transaksi total) dan <strong>Moving Averages-nya (5, 10, 20, 50, 100, 200)</strong> sangat penting untuk menilai likuiditas. Nilai transaksi yang tinggi memastikan bahwa seorang trader dapat masuk dan keluar posisi secara efisien tanpa menyebabkan dampak harga yang tidak semestinya. Untuk *swing trading*, nilai transaksi harian minimum (misalnya, Rp 1 Miliar atau lebih) sangat penting untuk menghindari saham yang tidak likuid, yang dapat sulit diperdagangkan dengan menguntungkan karena spread bid-ask yang lebar dan kesulitan dalam eksekusi.</p>
+                        <p class="mb-2">Meskipun volume dan nilai tinggi biasanya mengkonfirmasi pergerakan harga bullish, situasi di mana harga naik tetapi volume atau nilai secara konsisten menurun atau stagnan menunjukkan divergensi potensial. Pola ini menunjukkan kurangnya keyakinan tulus di balik apresiasi harga dan seringkali dapat menyebabkan "bull trap" atau breakout palsu. Skenario seperti itu menunjukkan bahwa tekanan beli mungkin melemah, membuat pergerakan tidak berkelanjutan. Sebaliknya, jika harga saham berkonsolidasi dalam kisaran sempit tetapi volumenya terus meningkat, ini mungkin menandakan fase akumulasi oleh investor yang terinformasi, seringkali mendahului breakout naik yang signifikan. Oleh karena itu, *screener* yang efektif tidak hanya mencari volume tinggi, tetapi lebih pada volume tinggi yang *konsisten* atau pola peningkatan volume yang jelas *bersamaan dengan* apresiasi harga. Kehati-hatian harus dilakukan ketika *screener* hanya menyoroti kenaikan harga tanpa konfirmasi volume atau nilai yang sesuai.</p>
+    
+                        <h3 class="subsubsection-title">Indikator Frekuensi</h3>
+                        <p class="mb-2"><strong>Frequency, Frequency Analyzer, Frequency Analyzer MA 50, dan Frequency Spike</strong> memberikan wawasan tentang jumlah perdagangan yang dieksekusi, mencerminkan aktivitas pasar. Frekuensi tinggi menunjukkan perdagangan aktif dan minat pasar yang meningkat. "Frequency Spike," yang didefinisikan sebagai lonjakan tiba-tiba dan signifikan dalam jumlah perdagangan (misalnya, Frequency > 2x Frequency Analyzer MA 50), menunjukkan perhatian pasar yang tidak biasa dan seringkali mendadak. Ini dapat mendahului atau menyertai pergerakan yang didorong oleh berita atau aktivitas perdagangan institusional yang signifikan.</p>
+                        <p>Tidak seperti volume, yang mengukur jumlah saham yang diperdagangkan, frekuensi mengukur jumlah transaksi. Lonjakan tiba-tiba dalam jumlah perdagangan (Frequency Spike) tanpa lonjakan volume besar yang sesuai kadang-kadang bisa menjadi indikator halus bahwa "smart money" sedang mengakumulasi atau mendistribusikan saham dalam blok yang lebih kecil dan lebih sering untuk menghindari deteksi dan meminimalkan dampak pasar. Atau, ini bisa menandakan bahwa trader ritel bereaksi terhadap bisikan awal berita atau rumor sebelum tersebar luas. Jenis aktivitas ini seringkali mendahului lonjakan volume yang lebih besar dan lebih jelas setelah berita dikonfirmasi atau mendapatkan daya tarik yang lebih luas. Menggabungkan Frequency Spike dengan sedikit peningkatan volume dan aksi harga positif, bahkan jika breakout harga penuh belum terjadi, dapat membantu mengidentifikasi peluang pada tahap yang lebih awal, menawarkan titik masuk potensial bagi *swing trader* agresif yang ingin memanfaatkan momentum yang baru muncul.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">B. Metrik Bandarmology untuk Aliran Institusional & Smart Money</summary>
+                    <div class="details-content mt-2">
+                        <h3 class="subsubsection-title">Foreign Flow & Net Foreign Buy/Sell</h3>
+                        <p class="mb-2"><strong>Foreign Flow, Foreign Flow MA 20, dan Foreign Flow MA 50</strong> melacak nilai total transaksi oleh investor asing. Tren naik dalam Foreign Flow (misalnya, Foreign Flow secara konsisten di atas MA 20-nya) menunjukkan peningkatan partisipasi dari investor internasional.</p>
+                        <p class="mb-2"><strong>Net Foreign Buy / Sell, Net Foreign Buy / Sell MA10, dan Net Foreign Buy / Sell MA20</strong> mengukur aktivitas beli atau jual bersih oleh investor asing. Pembelian bersih asing yang berkelanjutan umumnya dianggap sebagai sinyal bullish yang kuat, karena institusi asing seringkali memiliki kemampuan penelitian yang luas dan biasanya beroperasi dengan cakrawala investasi yang lebih panjang. Namun, penempatan modal mereka yang signifikan dapat secara kuat mendorong pergerakan harga jangka pendek. <strong>Net Foreign Buy Streak</strong> dan <strong>Net Foreign Sell Streak</strong> (hari-hari berturut-turut pembelian atau penjualan bersih asing) memberikan konfirmasi lebih lanjut tentang keyakinan yang berkelanjutan. Streak, misalnya, tiga hari atau lebih, menunjukkan strategi yang disengaja dan berkelanjutan.</p>
+                        <p class="mb-2">Metrik seperti <strong>1 Week, 1 Month, 3 Month, 6 Month, 1 Year, dan YTD Net Foreign Flow</strong> menawarkan pandangan kontekstual yang lebih luas tentang sentimen investor asing dan pola akumulasi atau distribusi mereka selama berbagai jangka waktu. Untuk strategi *swing trading* 1-7 hari, jangka waktu yang lebih pendek (1 Minggu, 1 Bulan) lebih relevan secara langsung, tetapi tren positif dalam aliran asing jangka panjang memperkuat prospek bullish keseluruhan untuk saham.</p>
+                        <p>Di pasar negara berkembang seperti Indonesia, investor institusional asing sering dianggap sebagai proxy untuk "smart money." Persepsi ini berasal dari modal mereka yang substansial, akses ke jaringan penelitian global, dan strategi trading dan investasi yang umumnya lebih canggih. Akumulasi berkelanjutan mereka, yang dibuktikan dengan Net Foreign Buy Streak yang konsisten atau Foreign Flow yang secara konsisten di atas rata-rata bergerak, dapat berfungsi sebagai indikator utama apresiasi harga di masa depan, karena pesanan besar mereka memiliki kapasitas untuk secara signifikan memengaruhi harga pasar. Untuk *swing trade* 1-7 hari, mengidentifikasi *inisiasi* lonjakan akumulasi asing adalah yang terpenting. Oleh karena itu, *screener* yang efektif harus memprioritaskan saham yang menunjukkan *percepatan baru-baru ini* dalam pembelian bersih asing, daripada hanya aliran positif secara keseluruhan, karena ini menunjukkan keyakinan baru dan aktif.</p>
+    
+                        <h3 class="subsubsection-title">Bandar Value & Akumulasi/Distribusi</h3>
+                        <p class="mb-2"><strong>Bandar Value, Bandar Accum/Dist, Bandar Value MA 10, Bandar Value MA 20, dan Previous Bandar Value</strong> adalah metrik yang secara khusus terkait dengan aktivitas institusional (broker/dealer) lokal. "Bandar Value" melacak nilai transaksi total yang diatribusikan kepada institusi lokal ini, sementara "Bandar Accum/Dist" menunjukkan apakah mereka mengakumulasi (membeli) atau mendistribusikan (menjual) saham secara bersih. Akumulasi positif oleh "bandar" lokal seringkali mendahului atau menyertai kenaikan harga, mencerminkan pengaruh aliran asing tetapi berasal dari pemain institusional domestik.</p>
+                        <p>Sinyal yang sangat kuat muncul ketika investor asing, seperti yang ditunjukkan oleh <strong>Net Foreign Buy/Sell</strong>, dan institusi lokal, yang tercermin oleh <strong>Bandar Accum/Dist</strong>, secara bersamaan mengakumulasi saham tertentu. Akumulasi ganda ini menciptakan konvergensi tekanan beli yang kuat, secara signifikan meningkatkan probabilitas pergerakan harga naik yang kuat dalam jangka pendek. Pembelian sinergis ini menunjukkan keyakinan institusional yang luas dalam prospek saham, mewakili sinyal yang jauh lebih kuat dan lebih andal daripada aliran asing atau lokal secara terpisah. Akibatnya, *setup swing trade* yang paling kuat seringkali melibatkan akumulasi simultan oleh pemain institusional asing dan domestik, dan *screener* harus dirancang untuk menangkap sinergi yang kuat ini.</p>
+    
+                        <h3 class="subsubsection-title">Aktivitas Insider & Perubahan Pemegang Saham</h3>
+                        <p class="mb-2"><strong>Net Insider Buy / Sell (3M) (%), (6M) (%), (1Y) (%), dan (YTD) (%)</strong> melacak aktivitas beli dan jual eksekutif dan direktur perusahaan. Pembelian *insider* secara luas dianggap sebagai sinyal kepercayaan yang sangat kuat terhadap prospek masa depan perusahaan, karena individu-individu ini memiliki pengetahuan paling intim tentang operasi dan prospek perusahaan. Meskipun biasanya merupakan indikator jangka panjang, pembelian *insider* yang signifikan baru-baru ini dapat memberikan dasar fundamental untuk pantulan atau breakout teknikal jangka pendek, terutama jika saham tampak undervalued.</p>
+                        <p class="mb-2"><strong>Number of Shareholders (# of changes 1M, 3M, 6M, 1Y) dan (% changes 1M, 3M, 6M, 1Y), bersama dengan total Number of Shareholders</strong>, dapat menunjukkan pergeseran partisipasi pasar. Peningkatan yang signifikan dalam jumlah pemegang saham, terutama investor ritel, seringkali menyertai peningkatan popularitas dan momentum harga saham. Sebaliknya, penurunan mungkin menunjukkan konsolidasi institusional (di mana pemain besar membeli banyak pemegang saham kecil) atau distribusi.</p>
+                        <p class="mb-2"><strong>EV to EBITDA (TTM)</strong>, atau Enterprise Value to Earnings Before Interest, Taxes, Depreciation, and Amortization (Trailing Twelve Months), adalah kelipatan valuasi. Meskipun *swing trading* terutama merupakan strategi teknikal, memasukkan metrik valuasi yang wajar dapat membantu mengurangi risiko masuk ke saham yang terlalu mahal yang lebih rentan terhadap penarikan tajam. Misalnya, *screening* untuk saham dengan EV/EBITDA di bawah ambang batas tertentu (misalnya, < 20x atau di bawah rata-rata sektor) memberikan pemeriksaan kewarasan fundamental, berpotensi membuat *swing trade* kurang berisiko.</p>
+                        <p>Pembelian *insider*, meskipun secara fundamental merupakan sinyal jangka panjang, dapat bertindak sebagai katalis yang kuat untuk pergerakan harga teknikal jangka pendek. Jika saham menunjukkan pembelian *insider* baru-baru ini dan kemudian menunjukkan breakout teknikal yang jelas atau pembalikan yang kuat dari level support, ini menunjukkan bahwa pasar yang lebih luas mulai mengenali nilai dasar atau perkembangan positif yang sudah diketahui oleh *insider* perusahaan. Penyelarasan antara kepercayaan fundamental dan tindakan teknikal ini memberikan *setup trade* berkeyakinan lebih tinggi. Oleh karena itu, *screener* dapat dirancang untuk menggabungkan pembelian *insider* baru-baru ini dengan momentum harga jangka pendek atau pembalikan dari penurunan sebelumnya, sehingga mengidentifikasi *swing trade* berprobabilitas tinggi di mana kekuatan fundamental bertemu dengan tindakan teknikal.</p>
+                    </div>
+                </details>
             </section>
-            
-            <!-- FOUNDATIONAL SCREENERS SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="foundational" class="card">
                 <h2 class="section-title">III. Screener Fundamental: Menganalisis dan Meningkatkan Pendekatan Umum</h2>
-                 <p>Konten Screener Fundamental... (Gunakan konten lengkap dari file asli di sini)</p>
+                <p class="mb-4">*Screener* preset dari Stockbit yang disediakan menawarkan titik awal untuk mengidentifikasi peluang trading potensial. Namun, analisis kritis terhadap pendekatan umum ini mengungkapkan kegunaan dan keterbatasan inherennya ketika diterapkan pada strategi *swing trading* 1-7 hari yang tepat. Memahami nuansa ini sangat penting untuk mengembangkan metodologi *screening* yang lebih efektif dan berprobabilitas tinggi.</p>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">A. High Volume Breakout</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Deskripsi:</strong> "Screener ini menampilkan saham yang volume nya hari ini >2x dari volume rata-rata 20 hari terakhir, dengan nilai transaksi >Rp1 Miliar."</p>
+                        <p class="mb-2"><strong>Aturan Stockbit:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Volume > 2 * Volume MA 20</code></li>
+                            <li><code>Value >= 1,000,000,000</code></li>
+                        </ul>
+                        <p class="mb-2"><strong>Analisis untuk Swing Trading 1-7 Hari:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><strong>Kekuatan:</strong> Aturan <code>Volume > 2 * Volume MA 20</code> secara efektif menandai saham dengan peningkatan aktivitas perdagangan yang tiba-tiba dan substansial, yang seringkali merupakan prekursor pergerakan harga yang signifikan yang didorong oleh peningkatan permintaan atau penawaran. Aturan <code>Value >= 1,000,000,000</code> (Rp 1 Miliar) sangat penting bagi *swing trader*, karena memastikan likuiditas yang cukup, memungkinkan masuk dan keluar posisi dengan mudah tanpa menyebabkan dampak harga yang tidak semestinya, faktor kritis untuk perdagangan jangka pendek.</li>
+                            <li><strong>Keterbatasan:</strong> Keterbatasan signifikan adalah tidak adanya konteks harga. *Screener* ini hanya berfokus pada volume dan nilai, tanpa mengkonfirmasi arah atau sifat pergerakan harga. Lonjakan volume tinggi dapat mengindikasikan penjualan besar-besaran (distribusi), breakout palsu, atau hanya aktivitas tinggi tanpa bias arah yang jelas. Tanpa konfirmasi harga, seorang trader mungkin masuk ke saham yang mengalami lonjakan volume tetapi kemudian berkonsolidasi atau berbalik, berpotensi menyebabkan kerugian.</li>
+                        </ul>
+                        <p><strong>Peningkatan yang Disarankan untuk Swing 1-7 Hari:</strong> Untuk meningkatkan efektivitasnya untuk *swing trading*, disarankan untuk memasukkan kriteria aksi harga. Ini termasuk menambahkan <code>Price > Previous Price</code> dan <code>Price > Price MA 20</code> atau <code>Price > High Price (of previous day)</code> untuk memastikan bahwa lonjakan volume disertai dengan momentum harga naik yang jelas dan breakout dari tren jangka pendek. Penyempurnaan lebih lanjut dapat melibatkan penambahan <code>Price MA 5 > Price MA 10</code> untuk mengkonfirmasi penyelarasan tren bullish jangka pendek dan mempertimbangkan <code>Frequency Spike</code> untuk memastikan aktivitas yang tidak biasa di seluruh jumlah perdagangan, bukan hanya volume total.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">B. Foreign Flow Uptrend</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Deskripsi:</strong> "Screener ini menunjukan saham yang sedang diakumulasi oleh investor asing. Akumulasinya terdapat kenaikan, dimana foreign flow terakhir di atas rata-rata foreign flow 20 hari terakhir, dan terdapat minimum 2 hari net foreign flow streak."</p>
+                        <p class="mb-2"><strong>Aturan Stockbit:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Net Foreign Buy / Sell > 1,000,000,000</code></li>
+                            <li><code>Net Foreign Buy / Sell MA10 > 1,000,000,000</code></li>
+                            <li><code>Net Foreign Buy Streak >= 2</code></li>
+                            <li><code>Foreign Flow > 1 * Foreign Flow MA 20</code></li>
+                        </ul>
+                        <p class="mb-2"><strong>Analisis untuk Swing Trading 1-7 Hari:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><strong>Kekuatan:</strong> *Screener* ini secara langsung menargetkan akumulasi oleh investor institusional asing, yang seringkali berfungsi sebagai sinyal bullish yang kuat di pasar Indonesia. Inklusi aturan <code>Net Foreign Buy Streak >= 2</code> dan <code>Foreign Flow > Foreign Flow MA 20</code> menunjukkan minat asing yang berkelanjutan dan meningkat, sehingga mengurangi kemungkinan transaksi satu kali atau tidak signifikan.</li>
+                            <li><strong>Keterbatasan:</strong> Aliran asing kadang-kadang bisa menjadi indikator lagging. Pada saat akumulasi asing yang substansial menjadi jelas, harga saham mungkin telah mengalami pergerakan yang signifikan, sehingga mengurangi potensi keuntungan untuk *swing trade* jangka pendek 1-7 hari. Selain itu, *screener* ini, mirip dengan yang berfokus pada volume, tidak memiliki konfirmasi harga yang eksplisit. Ini tidak menjamin bahwa harga bereaksi positif atau breakout; investor asing mungkin mengakumulasi selama fase konsolidasi, dengan breakout harga yang sebenarnya berpotensi masih beberapa hari atau bahkan minggu lagi.</li>
+                        </ul>
+                        <p><strong>Peningkatan yang Disarankan untuk Swing 1-7 Hari:</strong> Untuk mengoptimalkan *swing trading*, memasukkan momentum harga sangat penting. Ini termasuk menambahkan <code>Price > Price MA 5</code> atau <code>Price > Previous Price</code> untuk memastikan saham sudah menunjukkan tanda-tanda pergerakan harga naik. Konfirmasi breakout, seperti <code>Price > Price MA 20</code> atau kondisi yang menunjukkan penembusan di atas level resistance baru-baru ini, akan mengkonfirmasi bahwa akumulasi asing memang diterjemahkan ke dalam pergerakan harga yang dapat ditindaklanjuti. Selain itu, menambahkan <code>Volume > Volume MA 20</code> akan memastikan likuiditas yang memadai dan partisipasi pasar yang lebih luas di samping aliran asing.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">C. Price Breakout MA20 Today</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Deskripsi:</strong> "Screener ini menampilkan saham yang hari ini harganya naik menembus MA20, dengan nilai transaksi >Rp1 Miliar."</p>
+                        <p class="mb-2"><strong>Aturan Stockbit:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Price > 1 * Price MA 20</code></li>
+                            <li><code>Price > 1 * Previous Price</code></li>
+                            <li><code>Previous Price < 1 * Price MA 20</code></li>
+                            <li><code>Value > 1,000,000,000</code></li>
+                        </ul>
+                        <p class="mb-2"><strong>Analisis untuk Swing Trading 1-7 Hari:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><strong>Kekuatan:</strong> *Screener* ini mengidentifikasi sinyal teknikal klasik yang menunjukkan pergeseran tren jangka pendek atau breakout dari periode konsolidasi. Kombinasi <code>Previous Price < Price MA 20</code> dan <code>Price > Price MA 20</code> secara tepat mendefinisikan *crossover* bullish. Aturan <code>Price > Previous Price</code> memastikan bahwa saham ditutup lebih tinggi dari penutupan sebelumnya, mengkonfirmasi momentum positif untuk hari itu. Aturan <code>Value > 1,000,000,000</code> lagi-lagi memastikan likuiditas yang cukup untuk diperdagangkan.</li>
+                            <li><strong>Keterbatasan:</strong> Breakout harga, ketika dipertimbangkan secara terpisah, kadang-kadang bisa menjadi "breakout palsu" jika tidak didukung secara memadai oleh volume perdagangan yang kuat atau tekanan beli yang berkelanjutan. Harga mungkin dengan cepat kembali di bawah MA20. *Screener* ini juga tidak memiliki kriteria volume spesifik di luar filter nilai umum; breakout yang terjadi pada volume rendah secara inheren kurang dapat diandalkan. Selain itu, ia tidak memasukkan informasi kontekstual yang lebih luas, seperti posisi saham relatif terhadap *moving average* jangka panjang atau tren keseluruhannya, yang dapat secara signifikan memengaruhi keandalan breakout jangka pendek.</li>
+                        </ul>
+                        <p><strong>Peningkatan yang Disarankan untuk Swing 1-7 Hari:</strong> Untuk meningkatkan keandalan breakout MA20 untuk *swing trading*, konfirmasi volume sangat penting. Menambahkan <code>Volume > 1.5 * Volume MA 20</code> atau <code>1 Day Volume Change > 50%</code> akan memvalidasi breakout dengan minat beli yang kuat. Memasukkan <code>Price MA 5 > Price MA 10</code> akan lebih lanjut mengkonfirmasi bahwa momentum jangka pendek kuat dan bukan hanya anomali satu hari. Untuk *setup* probabilitas yang lebih tinggi, bermanfaat untuk menambahkan prasyarat bahwa saham berkonsolidasi di bawah MA20 untuk suatu periode (misalnya, <code>Max(Price, 5 days ago) < Price MA 20 (5 days ago)</code>), menunjukkan penumpukan energi sebelum breakout.</p>
+                    </div>
+                </details>
+    
+                <div class="table-container">
+                    <h3 class="subsubsection-title">Tabel 1: Analisis Screener Preset Stockbit untuk Swing Trading</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama Screener</th>
+                                <th>Deskripsi (dari Stockbit)</th>
+                                <th>Aturan Stockbit</th>
+                                <th>Kekuatan untuk Swing Trading (1-7 hari)</th>
+                                <th>Keterbatasan untuk Swing Trading (1-7 hari)</th>
+                                <th>Peningkatan yang Disarankan untuk Swing 1-7 Hari</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>High Volume Breakout</td>
+                                <td>Volume > 2x Volume MA 20, Value > Rp1 Miliar</td>
+                                <td>Volume > 2 * Volume MA 20, Value >= 1,000,000,000</td>
+                                <td>Mengidentifikasi minat mendadak, memastikan likuiditas.</td>
+                                <td>Kurangnya konteks harga, potensi sinyal palsu/distribusi.</td>
+                                <td>Tambahkan Price > Previous Price, Price > Price MA 20.</td>
+                            </tr>
+                            <tr>
+                                <td>Foreign Flow Uptrend</td>
+                                <td>Net Foreign Buy/Sell > Rp1 Miliar, Net Foreign Buy Streak >= 2, Foreign Flow > Foreign Flow MA 20</td>
+                                <td>Net Foreign Buy / Sell > 1,000,000,000, Net Foreign Buy / Sell MA10 > 1,000,000,000, Net Foreign Buy Streak >= 2, Foreign Flow > 1 * Foreign Flow MA 20</td>
+                                <td>Menargetkan akumulasi "smart money", menunjukkan minat asing yang berkelanjutan.</td>
+                                <td>Bisa menjadi indikator lagging, tanpa konfirmasi harga, masalah waktu untuk swing pendek.</td>
+                                <td>Tambahkan Price > Price MA 5, Price > Price MA 20, Volume > Volume MA 20.</td>
+                            </tr>
+                            <tr>
+                                <td>Price Breakout MA20 Today</td>
+                                <td>Harga hari ini menembus MA20, Value > Rp1 Miliar</td>
+                                <td>Price > 1 * Price MA 20, Price > 1 * Previous Price, Previous Price < 1 * Price MA 20, Value > 1,000,000,000</td>
+                                <td>Breakout teknikal klasik, mengkonfirmasi aksi harian positif, memastikan likuiditas.</td>
+                                <td>Rentan terhadap breakout palsu, kurang konfirmasi volume, tanpa konteks tren yang lebih luas.</td>
+                                <td>Tambahkan Volume > 1.5 * Volume MA 20, Price MA 5 > Price MA 10.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
-
-            <!-- ADVANCED SCREENERS SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="advanced" class="card">
                 <h2 class="section-title">IV. Screener Swing Trading Lanjutan: Membuka Setup Berprobabilitas Tinggi</h2>
-                 <p>Konten Screener Lanjutan... (Gunakan konten lengkap dari file asli di sini)</p>
+                <p class="mb-4">Melampaui pendekatan fundamental, *screener* lanjutan berikut dirancang dengan cermat untuk mengidentifikasi *setup swing trade* berprobabilitas tinggi dalam cakrawala 1-7 hari. Setiap *screener* mengintegrasikan kombinasi canggih dari metrik teknikal dan "bandarmology," menawarkan strategi yang berbeda untuk menangkap peluang pasar.</p>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">A. Screener 1: Momentum Eksplosif & Lonjakan Likuiditas (The "Power Play")</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Tujuan Utama:</strong> Untuk mengidentifikasi saham yang mengalami momentum harga naik yang kuat dan segera didukung oleh tekanan beli yang luar biasa dan likuiditas yang signifikan, menunjukkan probabilitas tinggi kelanjutan untuk beberapa hari ke depan.</p>
+                        <p class="mb-2"><strong>Kriteria Utama:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Price > Price MA 5</code> (Harga saat ini di atas *moving average* terpendek, menunjukkan momentum langsung yang kuat).</li>
+                            <li><code>Price MA 5 > Price MA 10</code> (Tren jangka pendek jelas bullish).</li>
+                            <li><code>1 Day Volume Change > 75%</code> (Peningkatan signifikan dalam volume hari ini dibandingkan kemarin).</li>
+                            <li><code>Volume > 3 * Volume MA 20</code> (Volume saat ini setidaknya tiga kali volume rata-rata 20 hari terakhir, mengkonfirmasi minat yang ekstrem).</li>
+                            <li><code>Value >= 5,000,000,000</code> (Rp 5 Miliar - Memastikan likuiditas yang sangat tinggi, cocok untuk ukuran posisi yang lebih besar dan keluar cepat).</li>
+                            <li><code>High Price = Close Price</code> (Atau <code>(High Price - Close Price) / (High Price - Low Price) < 0.1</code> - Menunjukkan penutupan yang kuat, dengan pembeli mengendalikan hingga akhir sesi).</li>
+                        </ul>
+                        <p><strong>Dasar Pemikiran:</strong> *Screener* ini menargetkan saham yang mengalami "power day"—hari yang ditandai dengan kenaikan harga yang kuat, volume yang sangat tinggi, dan penutupan yang kuat. Hari-hari seperti itu seringkali menandakan katalis yang signifikan, seperti berita positif yang tidak terduga atau pembelian institusional besar, yang telah menarik perhatian pasar. Likuiditas yang tinggi memastikan bahwa saham mudah diperdagangkan untuk masuk dan keluar dengan cepat, sementara penyelarasan *moving average* mengkonfirmasi tren bullish langsung.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">B. Screener 2: Akumulasi Asing & Lokal Terkonfirmasi dengan Penyelarasan Tren (The "Institutional Conviction Play")</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Tujuan Utama:</strong> Untuk mengidentifikasi saham di mana investor institusional asing dan lokal secara aktif mengakumulasi, ditambah dengan tren harga dasar yang sehat, menunjukkan keyakinan institusional yang kuat dan berbasis luas.</p>
+                        <p class="mb-2"><strong>Kriteria Utama:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Net Foreign Buy / Sell > 1,500,000,000</code> (Rp 1.5 Miliar - Pembelian bersih asing yang signifikan hari ini).</li>
+                            <li><code>Net Foreign Buy Streak >= 3</code> (Pembelian asing yang konsisten selama setidaknya tiga hari).</li>
+                            <li><code>Foreign Flow > Foreign Flow MA 20</code> (Minat asing secara keseluruhan meningkat).</li>
+                            <li><code>Bandar Accum/Dist (positive)</code> (Institusi lokal juga mengakumulasi).</li>
+                            <li><code>Price > Price MA 20</code> (Saham berada dalam tren naik jangka pendek).</li>
+                            <li><code>Price MA 5 > Price MA 10</code> (Momentum langsung bullish).</li>
+                            <li><code>Value >= 2,000,000,000</code> (Rp 2 Miliar - Memastikan likuiditas yang cukup).</li>
+                        </ul>
+                        <p><strong>Dasar Pemikiran:</strong> *Screener* ini memanfaatkan pengaruh gabungan dari "smart money"—baik institusi asing maupun lokal. Ketika kedua segmen secara aktif mengakumulasi saham, ini menandakan tingkat keyakinan yang tinggi terhadap prospek masa depan saham, yang seringkali diterjemahkan ke dalam tekanan harga naik yang berkelanjutan. Inklusi kriteria teknikal memastikan bahwa akumulasi institusional ini sudah bermanifestasi sebagai tren harga positif, membuat saham cocok untuk *swing trade*.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">C. Screener 3: Keyakinan Insider & Pembalikan Teknikal Awal (The "Smart Money Bounce")</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Tujuan Utama:</strong> Untuk mengidentifikasi saham yang baru-baru ini mengalami pembelian *insider* yang signifikan (menunjukkan kepercayaan fundamental) dan sekarang menunjukkan tanda-tanda awal pembalikan teknikal atau pantulan dari penurunan, didukung oleh peningkatan volume.</p>
+                        <p class="mb-2"><strong>Kriteria Utama:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Net Insider Buy / Sell (3M) (%) > 0.5%</code> (Pembelian bersih yang signifikan oleh *insider* selama tiga bulan terakhir, menunjukkan keyakinan yang kuat).</li>
+                            <li><code>Price MA 5 crosses above Price MA 10</code> (Crossover bullish, menandakan pergeseran momentum yang segera).</li>
+                            <li><code>Previous Price < Price MA 20</code> (Saham baru-baru ini di bawah tren jangka pendeknya, menunjukkan penurunan atau konsolidasi).</li>
+                            <li><code>Price > Price MA 20</code> (Harga saat ini telah menembus di atas MA20, mengkonfirmasi pembalikan).</li>
+                            <li><code>Volume > 1.5 * Volume MA 20</code> (Volume mengkonfirmasi breakout/pembalikan).</li>
+                            <li><code>Value >= 1,000,000,000</code> (Rp 1 Miliar - Likuiditas minimum).</li>
+                        </ul>
+                        <p><strong>Dasar Pemikiran:</strong> *Screener* ini menggabungkan sinyal fundamental yang kuat—pembelian *insider*—dengan pola pembalikan teknikal yang jelas. Pembelian *insider* menunjukkan bahwa individu dengan pengetahuan paling intim tentang perusahaan percaya itu undervalued atau mengantisipasi perkembangan positif. Ketika keyakinan fundamental ini selaras dengan pantulan atau breakout teknikal, ini menciptakan *setup* berprobabilitas tinggi untuk pembalikan jangka pendek atau inisiasi tren naik baru.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">D. Screener 4: Deteksi Tren Awal melalui Lonjakan Frekuensi & Volume (The "Whisper Play")</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Tujuan Utama:</strong> Untuk menangkap tanda-tanda awal perhatian pasar yang tidak biasa, seringkali terkait dengan berita atau peristiwa penting yang akan datang, sebelum pasar yang lebih luas sepenuhnya bereaksi.</p>
+                        <p class="mb-2"><strong>Kriteria Utama:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>Frequency Spike</code> (misalnya, <code>Frequency > 2 * Frequency Analyzer MA 50</code> - Lonjakan jumlah perdagangan yang signifikan dan tidak biasa).</li>
+                            <li><code>1 Day Volume Change > 100%</code> (Volume hari ini lebih dari dua kali volume kemarin).</li>
+                            <li><code>Price > Open Price</code> (Saham ditutup lebih tinggi dari pembukaannya, menunjukkan tekanan beli sepanjang hari).</li>
+                            <li><code>Price > Previous Price</code> (Saham ditutup lebih tinggi dari kemarin).</li>
+                            <li><code>Price MA 5 crosses above Price MA 10</code> (Konfirmasi momentum bullish awal).</li>
+                            <li><code>Value >= 2,000,000,000</code> (Rp 2 Miliar - Memastikan diperdagangkan).</li>
+                        </ul>
+                        <p><strong>Dasar Pemikiran:</strong> *Screener* ini dirancang untuk *swing trader* agresif yang mencari titik masuk awal. Lonjakan frekuensi, ditambah dengan peningkatan tajam dalam volume dan aksi harga positif, seringkali menandakan bahwa "sesuatu sedang terjadi"—mungkin rumor, pengumuman yang akan datang, atau posisi institusional awal. Mengidentifikasi sinyal-sinyal ini lebih awal dapat menghasilkan keuntungan substansial saat berita menjadi publik dan pasar yang lebih luas bereaksi.</p>
+                    </div>
+                </details>
+    
+                <details class="mb-4">
+                    <summary class="details-summary">E. Screener 5: Pembalikan yang Didukung Nilai dengan Akumulasi (The "Discounted Gem")</summary>
+                    <div class="details-content mt-2">
+                        <p class="mb-2"><strong>Tujuan Utama:</strong> Untuk mengidentifikasi saham yang secara fundamental menarik (valuasi wajar) dan telah mengalami penurunan baru-baru ini, tetapi sekarang menunjukkan tanda-tanda akumulasi institusional lokal dan pembalikan harga jangka pendek.</p>
+                        <p class="mb-2"><strong>Kriteria Utama:</strong></p>
+                        <ul class="list-disc list-inside ml-4 mb-2">
+                            <li><code>EV to EBITDA (TTM) < 15x</code> (Atau dalam kisaran yang wajar untuk sektornya, misal, < 20x - Memastikan valuasi yang relatif menarik).</li>
+                            <li><code>Price < Price MA 20</code> (Saham saat ini di bawah rata-rata jangka pendeknya, menunjukkan penurunan atau konsolidasi baru-baru ini).</li>
+                            <li><code>Price > Price MA 5</code> (Harga saat ini di atas MA terpendeknya, menandakan pantulan baru-baru ini dari titik terendah).</li>
+                            <li><code>Bandar Value > Bandar Value MA 10</code> (Nilai perdagangan institusional lokal meningkat).</li>
+                            <li><code>Bandar Accum/Dist (positive)</code> (Institusi lokal mengakumulasi).</li>
+                            <li><code>Volume > Previous Volume</code> (Volume meningkat pada pantulan).</li>
+                            <li><code>Value >= 1,000,000,000</code> (Rp 1 Miliar - Likuiditas minimum).</li>
+                        </ul>
+                        <p><strong>Dasar Pemikiran:</strong> *Screener* ini menargetkan saham yang mungkin "diobral" karena koreksi pasar baru-baru ini atau kelemahan sementara, namun tetap fundamental kuat dan sekarang diakumulasi oleh "smart money" lokal. Kombinasi valuasi yang wajar, pantulan teknikal yang jelas, dan pembelian institusional lokal yang terkonfirmasi memberikan sinyal yang kuat untuk *swing trade* pembalikan jangka pendek.</p>
+                    </div>
+                </details>
+    
+                <div class="table-container">
+                    <h3 class="subsubsection-title">Tabel 2: Screener Swing Trading Lanjutan: Kriteria & Dasar Pemikiran</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama Screener</th>
+                                <th>Tujuan Utama</th>
+                                <th>Kriteria Utama (Metrik, Operator, Nilai/Perbandingan)</th>
+                                <th>Dasar Pemikiran untuk Swing Trading 1-7 Hari</th>
+                                <th>Implikasi Lebih Luas untuk Cakrawala 1-7 Hari</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Momentum Eksplosif & Lonjakan Likuiditas</td>
+                                <td>Identifikasi saham dengan momentum harga naik yang kuat dan segera serta tekanan beli yang luar biasa.</td>
+                                <td>Price > Price MA 5, Price MA 5 > Price MA 10, 1 Day Volume Change > 75%, Volume > 3 * Volume MA 20, Value >= Rp 5 Miliar, High Price = Close Price (atau mendekati penutupan)</td>
+                                <td>Menargetkan "power days" yang didorong oleh katalis signifikan dan likuiditas tinggi, menunjukkan potensi kelanjutan yang kuat.</td>
+                                <td>Probabilitas tinggi pembelian lanjutan karena momentum psikologis dan permintaan yang terkonfirmasi.</td>
+                            </tr>
+                            <tr>
+                                <td>Akumulasi Asing & Lokal Terkonfirmasi dengan Penyelarasan Tren</td>
+                                <td>Temukan saham dengan keyakinan institusional berbasis luas (asing dan lokal) yang mendukung tren harga positif.</td>
+                                <td>Net Foreign Buy / Sell > Rp 1.5 Miliar, Net Foreign Buy Streak >= 3, Foreign Flow > Foreign Flow MA 20, Bandar Accum/Dist (positive), Price > Price MA 20, Price MA 5 > Price MA 10, Value >= Rp 2 Miliar</td>
+                                <td>Memanfaatkan tekanan beli "smart money" gabungan untuk pergerakan naik yang berkelanjutan, dikonfirmasi oleh tren teknikal.</td>
+                                <td>Akumulasi institusional ganda memberikan sinyal yang kuat, mengurangi positif palsu dan meningkatkan keyakinan.</td>
+                            </tr>
+                            <tr>
+                                <td>Keyakinan Insider & Pembalikan Teknikal Awal</td>
+                                <td>Identifikasi saham yang secara fundamental menarik dengan pembelian insider baru-baru ini yang menunjukkan tanda-tanda awal pantulan teknikal dari penurunan.</td>
+                                <td>Net Insider Buy / Sell (3M) (%) > 0.5%, Price MA 5 crosses above Price MA 10, Previous Price < Price MA 20, Price > Price MA 20, Volume > 1.5 * Volume MA 20, Value >= Rp 1 Miliar</td>
+                                <td>Menggabungkan kepercayaan fundamental yang kuat dengan pembalikan teknikal yang jelas, menunjukkan potensi pembalikan yang signifikan.</td>
+                                <td>Pembelian insider bertindak sebagai katalis, menandakan pengakuan pasar terhadap nilai dasar atau perkembangan positif.</td>
+                            </tr>
+                            <tr>
+                                <td>Deteksi Tren Awal melalui Lonjakan Frekuensi & Volume</td>
+                                <td>Tangkap tanda-tanda awal perhatian pasar yang tidak biasa, seringkali terkait dengan berita atau peristiwa penting yang akan datang.</td>
+                                <td>Frequency Spike (misalnya, Frequency > 2 * Frequency Analyzer MA 50), 1 Day Volume Change > 100%, Price > Open Price, Price > Previous Price, Price MA 5 crosses above Price MA 10, Value >= Rp 2 Miliar</td>
+                                <td>Strategi agresif untuk memanfaatkan asimetri informasi atau posisi awal sebelum kesadaran luas.</td>
+                                <td>Menawarkan potensi entri lebih awal dan keuntungan lebih besar dengan mengidentifikasi "bisikan" sebelum menjadi "teriakan."</td>
+                            </tr>
+                            <tr>
+                                <td>Pembalikan yang Didukung Nilai dengan Akumulasi</td>
+                                <td>Identifikasi saham yang secara fundamental menarik yang telah menurun tetapi sekarang menunjukkan tanda-tanda akumulasi institusional lokal dan pembalikan jangka pendek.</td>
+                                <td>EV to EBITDA (TTM) < 15x (atau kisaran wajar), Price < Price MA 20, Price > Price MA 5, Bandar Value > Bandar Value MA 10, Bandar Accum/Dist (positive), Volume > Previous Volume, Value >= Rp 1 Miliar</td>
+                                <td>Mencampur valuasi dengan pantulan teknikal dan pembelian institusional lokal untuk peluang "buy the dip" yang lebih aman.</td>
+                                <td>Mengurangi risiko "catching a falling knife" dengan menggabungkan nilai fundamental dengan konfirmasi teknikal dan institusional dari pembalikan.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </section>
-
-            <!-- SYNERGY SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="synergy" class="card">
                 <h2 class="section-title">V. Screening Sinergis: Menggabungkan Strategi untuk Presisi yang Ditingkatkan</h2>
-                 <p>Konten Sinergi... (Gunakan konten lengkap dari file asli di sini)</p>
+                <p class="mb-4">Meskipun setiap *screener* lanjutan menawarkan metode mandiri yang kuat untuk mengidentifikasi peluang, pendekatan paling canggih untuk *swing trading* melibatkan penggabungan strategi dan pelapisan hasilnya. Pendekatan sinergis ini secara signifikan meningkatkan presisi dan tingkat keyakinan dari perdagangan potensial.</p>
+    
+                <h3 class="subsection-title">Metode untuk Melapisi dan Menggabungkan Hasil dari Berbagai Screener</h3>
+                <p class="mb-4">Daripada mengandalkan satu *screener*, *trader* berpengalaman seringkali mengintegrasikan output dari beberapa *screener*. Misalnya, saham mungkin muncul di *screener* "Momentum Eksplosif & Lonjakan Likuiditas" secara bersamaan dengan menunjukkan sinyal positif dari kriteria "Foreign Flow Uptrend". Pelapisan sinyal positif dari metodologi *screening* yang berbeda ini secara substansial meningkatkan tingkat keyakinan keseluruhan untuk perdagangan potensial.</p>
+                <p class="mb-2">Beberapa teknik dapat digunakan untuk pendekatan sinergis ini:</p>
+                <ul class="list-disc list-inside ml-4 mb-2">
+                    <li><strong>Intersection:</strong> Ini melibatkan menjalankan beberapa *screener* secara independen dan kemudian mengidentifikasi saham yang muncul di *semua* atau *sebagian besar* daftar yang dihasilkan. Metode ini secara efektif mempersempit alam semesta ke permainan keyakinan tertinggi, di mana banyak faktor positif selaras.</li>
+                    <li><strong>Sequential Filtering:</strong> *Screener* yang lebih luas dapat diterapkan terlebih dahulu (misalnya, berfokus pada likuiditas umum dan kriteria tren dasar) untuk menghasilkan daftar kandidat awal yang lebih besar. Selanjutnya, *screener* yang lebih spesifik (misalnya, berfokus pada aliran asing atau aktivitas *insider*) dapat diterapkan pada daftar yang sudah difilter ini, secara progresif menyaring pilihan.</li>
+                    <li><strong>"Watchlist Builder":</strong> Berbagai *screener* dapat digunakan setiap hari untuk mengisi *watchlist* yang komprehensif. *Watchlist* ini kemudian menjalani tinjauan manual, melibatkan pemeriksaan terperinci terhadap grafik dan berita terbaru untuk setiap saham, memungkinkan penilaian kualitatif yang lebih bernuansa.</li>
+                </ul>
+    
+                <h3 class="subsection-title">Pentingnya Analisis Kualitatif dan Konfirmasi Grafik Pasca-Screening</h3>
+                <p class="mb-4">*Stock screener* adalah filter yang sangat kuat, namun mereka bukan pengganti penilaian manusia dan analisis kualitatif yang komprehensif. Setelah *screener* menghasilkan daftar kandidat potensial, sangat penting untuk melakukan tinjauan kualitatif yang menyeluruh.</p>
+                <p class="mb-2">Tinjauan ini biasanya melibatkan:</p>
+                <ul class="list-disc list-inside ml-4 mb-2">
+                    <li><strong>Chart Confirmation:</strong> Selalu tinjau grafik harga saham. Periksa level support dan resistance yang jelas, pola grafik yang dapat diidentifikasi (misalnya, *flags, pennants, cup and handle formations*), dan struktur harga keseluruhan. *Screener* mungkin menandai saham, tetapi grafik dapat mengungkapkan bahwa itu mendekati level resistance utama atau saat ini terjebak dalam kisaran perdagangan yang bergejolak dan tidak dapat diprediksi.</li>
+                    <li><strong>News & Catalysts:</strong> Selidiki berita terbaru, pengumuman perusahaan, atau katalis khusus sektor yang dapat mendorong aksi harga yang diamati. Memahami "mengapa" fundamental di balik pergerakan saham dapat secara signifikan memperkuat keyakinan dalam perdagangan.</li>
+                    <li><strong>Sector Performance:</strong> Nilai kinerja sektor industri yang lebih luas dari saham. Saham yang bergerak seiring dengan sektor yang kuat dan sedang tren seringkali menunjukkan momentum yang lebih berkelanjutan dan probabilitas perdagangan yang lebih tinggi.</li>
+                    <li><strong>Market Conditions:</strong> Pertimbangkan sentimen dan tren yang berlaku di pasar secara keseluruhan (misalnya, tren IHSG). Mencoba *swing trade* melawan tren pasar yang lebih luas dapat memperkenalkan tingkat risiko yang meningkat.</li>
+                </ul>
+                <p>Proses *screening* harus dilihat bukan sebagai satu langkah, tetapi sebagai corong multi-tahap. *Screener* itu sendiri bertindak sebagai jaring awal yang lebar, menangkap berbagai kandidat potensial. Namun, analisis kualitatif selanjutnya—termasuk tinjauan grafik, pemeriksaan berita, dan pertimbangan konteks sektor—berfungsi sebagai filter kedua yang lebih halus. Pendekatan berlapis ini sangat penting untuk secara signifikan mengurangi positif palsu dan memastikan bahwa hanya *setup* berkualitas tertinggi yang berlanjut ke fase eksekusi. Melewatkan tinjauan kualitatif kritis ini adalah kesalahan umum yang seringkali menyebabkan perdagangan yang suboptimal atau tidak berhasil. Oleh karena itu, penting untuk memahami bahwa *screener* menyediakan *kandidat* untuk dipertimbangkan, bukan sinyal perdagangan langsung. Keputusan akhir untuk masuk ke perdagangan selalu bergantung pada tinjauan yang komprehensif dan disiplin.</p>
             </section>
-            
-            <!-- RISK MANAGEMENT SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="risk-management" class="card">
                 <h2 class="section-title">VI. Manajemen Risiko & Eksekusi untuk Swing Trader</h2>
-                 <p>Konten Manajemen Risiko... (Gunakan konten lengkap dari file asli di sini)</p>
+                <p class="mb-4">Selain mengidentifikasi *setup* berprobabilitas tinggi, manajemen risiko yang disiplin dan eksekusi yang tepat sangat penting untuk profitabilitas yang konsisten dalam *swing trading*.</p>
+    
+                <h3 class="subsection-title">Panduan Singkat tentang Penentuan Ukuran Posisi, Penempatan Stop-Loss, dan Strategi Pengambilan Keuntungan</h3>
+                <ul class="list-disc list-inside ml-4 mb-4">
+                    <li><strong>Position Sizing:</strong> Prinsip dasar manajemen risiko menyatakan untuk tidak pernah mempertaruhkan lebih dari persentase kecil yang telah ditentukan dari modal trading (misalnya, 1-2%) pada satu perdagangan. Pendekatan disiplin ini melindungi modal dari pergerakan harga yang merugikan yang tidak terduga dan memastikan bahwa tidak ada satu kerugian pun yang dapat secara tidak proporsional memengaruhi akun trading secara keseluruhan.</li>
+                    <li><strong>Stop-Loss Placement:</strong> Sangat penting untuk menentukan kerugian maksimum yang dapat diterima *sebelum* memulai perdagangan apa pun. Perintah *stop-loss* yang jelas harus selalu ditempatkan di bawah level support teknikal yang signifikan atau titik yang membatalkan hipotesis perdagangan asli (misalnya, di bawah MA20 untuk perdagangan breakout). Mematuhi secara ketat level *stop-loss* yang telah ditentukan ini sangat penting untuk mengelola risiko penurunan.</li>
+                    <li><strong>Profit-Taking Strategies:</strong> *Trader* harus menentukan target keuntungan mereka berdasarkan level teknikal yang telah ditetapkan (misalnya, resistance signifikan berikutnya, ekstensi Fibonacci) atau persentase keuntungan yang telah ditentukan. Menerapkan strategi pengambilan keuntungan parsial, seperti menjual setengah dari posisi pada target keuntungan pertama, memungkinkan penguncian keuntungan sambil memungkinkan sisa bagian untuk berpotensi berjalan lebih jauh dengan *trailing stop-loss*, mengoptimalkan profil risiko-reward.</li>
+                </ul>
+    
+                <h3 class="subsection-title">Menekankan Adaptabilitas dalam Kondisi Pasar yang Dinamis</h3>
+                <p class="mb-4">Kondisi pasar secara inheren dinamis dan terus berkembang. Strategi atau *screener* yang berkinerja sangat baik di pasar *bullish* yang kuat mungkin terbukti tidak efektif di pasar *bearish* atau selama periode konsolidasi yang berkepanjangan. *Swing trader* yang sukses harus mengembangkan adaptabilitas. Ini melibatkan peninjauan rutin efektivitas *screener* yang dipilih dan penyesuaian kriteria seiring dengan perubahan kondisi pasar. Selain itu, *trader* harus siap untuk mengurangi ukuran posisi mereka atau, jika volatilitas atau ketidakpastian pasar menjadi terlalu tinggi, untuk sementara waktu menahan diri dari trading sama sekali.</p>
+                <p>Trading adalah proses yang secara inheren berulang. *Screener* yang disediakan dalam laporan ini berfungsi sebagai titik awal yang kuat. *Swing trader* yang mahir terus memantau hasil trading mereka, dengan cermat menganalisis perdagangan yang menang dan kalah. Analisis berkelanjutan ini menginformasikan penyempurnaan kriteria *screener* dan aturan eksekusi mereka berdasarkan kinerja dunia nyata. Lingkaran umpan balik berkelanjutan ini sangat diperlukan untuk mencapai profitabilitas jangka panjang di pasar. Oleh karena itu, sangat disarankan untuk melakukan *backtest* dan *forward-test* *screener* ini menggunakan data historis, dan selanjutnya untuk mengujinya di lingkungan trading langsung dengan posisi yang lebih kecil, menyesuaikan parameter berdasarkan toleransi risiko individu dan pengamatan pasar yang sedang berlangsung.</p>
             </section>
-
-            <!-- CONCLUSION SECTION (Disembunyikan untuk menghemat ruang, tetapi diasumsikan ada) -->
+    
             <section id="conclusion" class="card">
                 <h2 class="section-title">VII. Kesimpulan: Memberdayakan Keputusan Trading Anda</h2>
-                 <p>Konten Kesimpulan... (Gunakan konten lengkap dari file asli di sini)</p>
+                <p class="mb-4">Efektivitas *swing trading* dalam cakrawala 1-7 hari secara fundamental bergantung pada *stock screening* yang tepat dan canggih. Ini melibatkan kombinasi strategis indikator momentum teknikal dan wawasan yang berasal dari aliran "smart money." Melampaui *screener* dasar yang telah ditentukan dengan secara cerdas melapisi beberapa indikator—meliputi aksi harga, volume, frekuensi perdagangan, aliran asing, aktivitas bandar lokal, dan sinyal *insider*—adalah kunci untuk mengidentifikasi *setup trade* yang memiliki keyakinan lebih tinggi.</p>
+                <p class="mb-4">*Screener* lanjutan yang dirinci dalam laporan ini menawarkan beragam strategi, mulai dari memanfaatkan permainan momentum eksplosif hingga mengidentifikasi pembalikan yang didukung nilai. Variasi ini memenuhi kondisi pasar yang berbeda dan selera risiko individu, menyediakan perangkat yang kuat untuk *swing trader* yang cermat. Namun, sangat penting untuk menyadari bahwa *screening* hanyalah langkah awal dalam proses trading. Itu harus selalu diikuti dengan konfirmasi grafik yang ketat, analisis berita yang komprehensif, dan manajemen risiko yang disiplin.</p>
+                <p class="mb-4">Pasar adalah entitas yang dinamis, dan pembelajaran berkelanjutan serta penyempurnaan metodologi *screening* adalah ciri khas *trader* yang sukses. Eksperimen dengan *screener* yang diusulkan ini, menyesuaikan parameternya, dan bahkan mengembangkan variasi unik berdasarkan pengamatan pribadi sangat dianjurkan. Tujuan utamanya bukanlah untuk menemukan *screener* "holy grail" tunggal, melainkan untuk membangun sistem yang kuat dan mudah beradaptasi yang secara konsisten mengidentifikasi peluang berprobabilitas tinggi dalam cakrawala trading yang ditentukan.</p>
+                <p>Pada tingkat ahli, seorang *trader* beroperasi tidak hanya sebagai pelaksana perdagangan tetapi sebagai perpaduan antara ilmuwan data dan psikolog pasar. *Screener* yang disajikan di sini berfungsi sebagai alat yang ampuh bagi ilmuwan data, memungkinkan analisis kuantitatif metrik pasar dan pembangunan model prediktif. Namun, penerapan alat-alat ini yang berhasil membutuhkan kecerdasan psikologis untuk secara akurat menafsirkan sinyal yang dihasilkan dan untuk mengelola risiko secara efektif. Penguasaan *swing trading* muncul dari interaksi berkelanjutan antara analisis kuantitatif yang ketat, penilaian kualitatif yang bernuansa, dan eksekusi yang disiplin.</p>
+    
+                <div class="mt-8 p-4 bg-yellow-50 border-l-4 border-yellow-400 text-yellow-800 rounded-lg">
+                    <p class="font-bold">Disclaimer:</p>
+                    <p class="text-sm">Informasi dalam ebook ini disediakan untuk tujuan pendidikan dan informasi saja, dan tidak boleh ditafsirkan sebagai nasihat keuangan atau rekomendasi investasi. Trading saham melibatkan risiko yang signifikan, dan Anda dapat kehilangan sebagian atau seluruh modal investasi Anda. Selalu lakukan riset Anda sendiri dan/atau konsultasikan dengan penasihat keuangan berlisensi sebelum membuat keputusan investasi apa pun.</p>
+                </div>
             </section>
-
+    
         </main>
     </div>
 
