@@ -51,7 +51,29 @@
     </style>
 </head>
 <body class="antialiased">
-
+    <script>
+        // choose a stable ID for this ebook/app:
+        window.__app_id = "ebook-tidewatcher";
+      
+        // paste your real Firebase web config here:
+        // window.__firebase_config = JSON.stringify({
+        //   apiKey: "…",
+        //   authDomain: "…",
+        //   projectId: "…",
+        //   storageBucket: "…",
+        //   messagingSenderId: "…",
+        //   appId: "…"
+        // });
+        window.__firebase_config = JSON.stringify({
+            apiKey: "AIzaSyBZQAawrRPFAaYShDNXvy4uJOuN2lC_poQ",
+            authDomain: "ebook-saham-tidewatcher.firebaseapp.com",
+            projectId: "ebook-saham-tidewatcher",
+            storageBucket: "ebook-saham-tidewatcher.firebasestorage.app",
+            messagingSenderId: "651568543755",
+            appId: "1:651568543755:web:1fe8030ffe4710c8b6af0e",
+            measurementId: "G-CLQN47ZMVJ"
+        });
+    </script>
     <!-- Konfigurasi Firebase dan Skema Keamanan -->
     <script type="module">
         // Variabel global MANDATORY dari Canvas untuk konfigurasi Firebase.
